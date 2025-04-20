@@ -6,7 +6,7 @@ const StoreCard = ({ store }) => {
   // Ensure the image URL is properly formed
   const imageUrl = store.imageUrl.startsWith('http') 
     ? store.imageUrl 
-    : `http://localhost:5000${store.imageUrl}`;
+    : `https://hyperstore.onrender.com${store.imageUrl}`;
 
   return (
     <Link 

@@ -33,7 +33,7 @@ const CartItem = ({ item }) => {
   // Ensure the image URL is properly formed
   const imageUrl = product.imageUrl?.startsWith('http') 
     ? product.imageUrl 
-    : `http://localhost:5000${product.imageUrl}`;
+    : `https://hyperstore.onrender.com${product.imageUrl}`;
 
   const handleRemove = () => {
     removeFromCart(product._id);

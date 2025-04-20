@@ -92,7 +92,7 @@ const StorePage = () => {
             <div className="flex flex-col md:flex-row items-start md:items-center">
               <div className="w-full md:w-1/3 md:mr-6 mb-4 md:mb-0">
                 <img 
-                  src={store.imageUrl.startsWith('http') ? store.imageUrl : `http://localhost:5000${store.imageUrl}`} 
+                  src={store.imageUrl.startsWith('http') ? store.imageUrl : `https://hyperstore.onrender.com${store.imageUrl}`} 
                   alt={store.name} 
                   className="w-full h-64 object-cover rounded-lg shadow-md"
                   onError={(e) => {
