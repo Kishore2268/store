@@ -4,7 +4,7 @@ import { MapPin } from 'lucide-react';
 
 const StoreCard = ({ store }) => {
   // Ensure the image URL is properly formed
-  const imageUrl = store.imageUrl.startsWith('http') 
+  const imageUrl = store.imageUrl.startsWith('https') 
     ? store.imageUrl 
     : `https://hyperstore.onrender.com${store.imageUrl}`;
 

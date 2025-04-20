@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   const [isAdding, setIsAdding] = useState(false);
   
   // Ensure the image URL is properly formed
-  const imageUrl = product.imageUrl.startsWith('http') 
+  const imageUrl = product.imageUrl.startsWith('https') 
     ? product.imageUrl 
     : `https://hyperstore.onrender.com${product.imageUrl}`;
   
