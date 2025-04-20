@@ -81,7 +81,7 @@ Design appropriate data models and API structure yourself.
 
 📌 Notes for Candidates
 
-The UI doesn’t have to look exactly like this.
+The UI doesn't have to look exactly like this.
 
 Feel free to improve styling, add animations, or even make it prettier if you have time.
 
@@ -94,3 +94,53 @@ The focus is on functionality and a clean, usable flow.
 - Edit quantity in cart
 - Delete product from the cart
 - Better mobile responsiveness
+
+## Prerequisites
+- Node.js (version 14.x or later)
+- npm (version 6.x or later)
+- MongoDB (version 4.x or later)
+- Git
+
+## Project Stack
+- **Backend**: Node.js, Express.js
+- **Frontend**: React.js
+- **Database**: MongoDB
+
+## Installation
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd hyperlocal-store-assignment
+   ```
+
+2. **Install backend dependencies**
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. **Install frontend dependencies**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+4. **Set up environment variables**
+   - Create a `.env` file in the `backend` directory with the following variables:
+     ```
+     MONGODB_URI=<your-mongodb-uri>
+     PORT=5000
+     ```
+
+## Usage
+- **Run the backend server**
+  ```bash
+  cd backend
+  npm start
+  ```
+
+- **Run the frontend**
+  ```bash
+  cd frontend
+  npm start
+  ```
