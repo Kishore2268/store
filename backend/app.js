@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Configure CORS more explicitly
 app.use(cors({
-  origin: 'http://localhost:3000', // frontend URL
+  origin: 'https://hyperlocal-store-orcin.vercel.app/', // frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));

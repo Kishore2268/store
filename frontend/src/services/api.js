@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set the base URL for the API
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://hyperstore.onrender.com/api';
 
 // Store API
 export const getStores = async () => {
